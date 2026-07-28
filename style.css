@@ -469,3 +469,25 @@ main { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
   font-variant-numeric: tabular-nums;
 }
 .ledger-table tr.is-paid-off td { color: var(--accent); }
+
+/* ---------- Extra item frequency ---------- */
+
+.extra-item-row { flex-wrap: wrap; }
+.extra-freq {
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--ink-soft);
+  background: var(--surface-alt);
+  border: none;
+  border-radius: 4px;
+  padding: 3px 4px;
+  cursor: pointer;
+}
+.extra-monthly-hint {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink-faint);
+  white-space: nowrap;
+  flex-basis: 100%;
+  padding-left: 2px;
+}
